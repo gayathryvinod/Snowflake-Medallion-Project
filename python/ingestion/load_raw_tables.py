@@ -43,5 +43,6 @@ load_table(
     "datasets/product_category_name_translation.csv",
     "PRODUCT_CATEGORY_NAME_TRANSLATION"
 )
+load_table("datasets/sellers.csv", "SELLERS")
 
 conn.close()
